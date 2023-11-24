@@ -1,0 +1,25 @@
+.prevencoes-container{
+    background-image: url('/public/bg5.png');
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    padding: 3rem 5rem 12.7rem 5rem;
+}
+
+.prevencoes-tipos{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.prevencoes-tipos h1{
+    color: #8B3141;
+}
+.prevencoes-tipos ul h3{
+    color: #8B3141;
+}
+
+.prevencoes-tipos ul li{
+    color: #DE5D8B;
+}
