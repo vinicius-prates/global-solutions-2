@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
+
 import { Navbar } from "../../Components/Navbar/Navbar"
 
 export const ReductMI = () => {
@@ -19,6 +20,7 @@ export const ReductMI = () => {
        
         </div>
         <div className="container-grafico">
+   
             <img src="/grafico-ods4.png" alt="grafico"/>
             <p>Mesmo com essa redução, de acordo com a Unicef, entre 1990 e 2007, o índice de violência mais do que dobrou.<br/>
  "De 1996 a 2017, 191 mil crianças e adolescentes de 10 a 19 anos foram vítimas de homicídio", o estudo ainda apresenta que, a cada dia, em média, 32 meninas e meninos nessa faixa de idade são assassinados.<br/>
