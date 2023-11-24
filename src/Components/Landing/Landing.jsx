@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable no-undef */
 /* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
@@ -19,12 +21,17 @@ export const Landing = () => {
         });
         console.log(formData)
       };
+
+      const sendEmail = () => {
+        window.open(`mailto:viniprates2211@gmail.com?subject=FeedBack&body=nome:${formData.name}Email:${formData.email}Feedback:${formData.text}`)
+      }
+      
   return (
     <div>
       <div className="landing-container">
         <div className="infos">
           <h1>Transformando diagnósticos mamários com precisão e inovação</h1>
-          <a href="https://www.google.com.br">Saiba Mais</a>
+          <a href="https://www.inca.gov.br/publicacoes/relatorios/dados-e-numeros-sobre-cancer-de-mama-relatorio-anual-2023" target="_blank">Saiba Mais</a>
         </div>
         <div className="image">
           <img src="/woman1.png" alt="woman1" />
@@ -103,10 +110,11 @@ export const Landing = () => {
                 <input placeholder="nome" name="name" value={formData.name} onChange={handleInputChange}/>
                 <input placeholder="email" name="email" value={formData.email} onChange={handleInputChange}/>
                 <textarea placeholder="Escreva aqui!" name="text" value={formData.text} onChange={handleInputChange} />
-                <button>Enviar</button>
+                <button onClick={sendEmail}>Enviar</button>
             </div>
         </div>
       </div>
+    
     </div>
   );
 };
