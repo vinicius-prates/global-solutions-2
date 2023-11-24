@@ -26,12 +26,15 @@ export const Landing = () => {
         window.open(`mailto:viniprates2211@gmail.com?subject=FeedBack&body=nome:${formData.name}Email:${formData.email}Feedback:${formData.text}`)
       }
       
+      const gotoVideodiv = () => {
+        window.location.href="#video"
+      } 
   return (
     <div>
       <div className="landing-container">
         <div className="infos">
           <h1>Transformando diagnósticos mamários com precisão e inovação</h1>
-          <a href="https://www.inca.gov.br/publicacoes/relatorios/dados-e-numeros-sobre-cancer-de-mama-relatorio-anual-2023" target="_blank">Saiba Mais</a>
+          <button onClick={gotoVideodiv} target="_blank">Saiba Mais</button>
         </div>
         <div className="image">
           <img src="/woman1.png" alt="woman1" />
@@ -52,7 +55,7 @@ export const Landing = () => {
           <p>
             <b>600 mil</b> mulheres morrem <b>por ano</b> no mundo pela doença
           </p>
-          <a href="" className="">
+          <a href="https://www.inca.gov.br/publicacoes/relatorios/dados-e-numeros-sobre-cancer-de-mama-relatorio-anual-2023" className="">
             Saiba Mais
           </a>
         </div>
@@ -78,11 +81,12 @@ export const Landing = () => {
           />
         </div>
       </div>
-      <div className="solucao">
+      <div id="video" className="solucao">
         <h1>
           <b>NOSSA SOLUÇÃO</b>
         </h1>
         <iframe
+        
           width="710"
           height="398"
           src="https://www.youtube.com/embed/uIMpSmRi44A?si=MZg8b6akHwgQEm1y"

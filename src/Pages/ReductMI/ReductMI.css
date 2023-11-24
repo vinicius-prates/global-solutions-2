@@ -1,6 +1,3 @@
-.reduct-container{
-    
-}
 
 .landing-reductMI {
     background-image: url('/public/bg2.png');
@@ -26,7 +23,7 @@
     width: 32rem;
 } 
 
-.landing-reductMI h1 {
+.landing-reductMI span {
     color: #D35169;
     font-size: 2.6rem;
 }
@@ -50,3 +47,50 @@
 .container-grafico p{
     margin: 0 15rem;
 }
+
+.typing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D35169;
+}
+
+.typing-container p {
+    font-size: 3rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    color: #D35169;
+  }
+  .typing-container p span.typed-text {
+    font-weight: normal;
+    color: #dd7732;
+  }
+  .typing-container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  .typing-container p span.cursor.typing {
+    animation: none;
+  }
+.input-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 42px;
+    background-color: #D35169;
+    margin-left: 0.5px;
+    animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }

@@ -16,7 +16,7 @@
   padding-bottom: 2rem;
 }
 
-.infos a {
+.infos button {
   width: fit-content;
   color: white;
   border-radius: 2rem;
@@ -29,7 +29,7 @@
   transition-duration: 300ms;
   transition-timing-function: ease-in-out;
 }
-.infos a:hover {
+.infos button:hover {
   background-color: #8b3141;
   text-decoration: none;
 }
