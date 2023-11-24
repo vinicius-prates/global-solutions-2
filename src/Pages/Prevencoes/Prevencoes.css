@@ -23,3 +23,27 @@
 .prevencoes-tipos ul li{
     color: #DE5D8B;
 }
+
+.grafico-prevencao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 5rem 10rem;
+    
+}
+
+.grafico-prevencao img{
+    width: 50rem;
+    border-radius: 20px;
+    box-shadow: initial;
+    filter: grayscale(0%) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.3));    
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+
+    
+}
+
+.grafico-prevencao img:hover{
+    filter: grayscale(0%) drop-shadow(0 5px 5px rgba(0, 0, 0, 0.3));    
+}

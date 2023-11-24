@@ -24,6 +24,9 @@ import { Navbar } from "../../Components/Navbar/Navbar"
                     </ul>
                 </div>
             </div>
+            <div className="grafico-prevencao">
+                <img src="/grafico-prevencao.png" alt="blob"/>
+            </div>
         </div>
     )
  }
