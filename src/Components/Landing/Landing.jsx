@@ -1,10 +1,24 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
+import { useState } from "react";
 import { Card } from "../Card/Card";
 
 /* eslint-disable jsx-a11y/alt-text */
 export const Landing = () => {
+    
+    const [formData, setFormData] = useState({
+        name:"", email: "", text:""
+    })
+
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+          ...formData,
+          [name]: value,
+        });
+        console.log(formData)
+      };
   return (
     <div>
       <div className="landing-container">
@@ -80,6 +94,18 @@ export const Landing = () => {
           Vinícius Prates   -   RM550285
           Yohana Bispo Menezes   -   RM551430"
         />
+      </div>
+      <div className="talk-to-us">
+        <h1><b>FALE CONOSCO</b></h1>
+        <div className="talk-to-us-info">
+            <img src="/people.png"/>
+            <div className="talk-to-us-form">
+                <input placeholder="nome" name="name" value={formData.name} onChange={handleInputChange}/>
+                <input placeholder="email" name="email" value={formData.email} onChange={handleInputChange}/>
+                <textarea placeholder="Escreva aqui!" name="text" value={formData.text} onChange={handleInputChange} />
+                <button>Enviar</button>
+            </div>
+        </div>
       </div>
     </div>
   );

@@ -108,3 +108,29 @@
     text-align: center;
     align-items: center;
   }
+
+  .talk-to-us {
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    margin-bottom: 5rem;
+  }
+
+  .talk-to-us h1 b {
+    color: #e980a6;
+  }
+
+  .talk-to-us-info{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+
+  .talk-to-us-form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
