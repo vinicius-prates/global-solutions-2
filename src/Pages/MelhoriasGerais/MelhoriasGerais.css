@@ -1,0 +1,23 @@
+.melhorias-gerais{
+    background-image: url('/public/bg6.png');
+    height: 89.5vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.melhorias-text{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 8em ;
+    text-align: left;
+    
+}
+
+.melhorias-text h1{
+    color: #DE5D8B;
+    margin-left: 5rem;
+}
