@@ -6,9 +6,9 @@ export const Navbar = () => {
       <div className="pages">
         <ul>
             <li><a href="/mi-reduction">Redução MI</a></li>
-            <li><a href="">Doenças</a></li>
-            <li><a href="">Prevenções</a></li>
-            <li><a href="">Melhoria Geral</a></li>
+            <li><a href="/doencas">Doenças</a></li>
+            <li><a href="/prevencoes">Prevenções</a></li>
+            <li><a href="/melhorias-gerais">Melhoria Geral</a></li>
         </ul>
       </div>
     </div>
