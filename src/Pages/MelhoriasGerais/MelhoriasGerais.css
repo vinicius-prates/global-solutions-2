@@ -12,7 +12,7 @@
 .melhorias-text{
     display: flex;
     flex-direction: column;
-    padding: 2rem 8em ;
+    padding: 2rem 12em ;
     text-align: left;
     
 }
@@ -20,4 +20,9 @@
 .melhorias-text h1{
     color: #DE5D8B;
     margin-left: 5rem;
+}
+
+.melhorias-gerais p {
+    letter-spacing: 0.5px;
+    line-height: 1.5;
 }

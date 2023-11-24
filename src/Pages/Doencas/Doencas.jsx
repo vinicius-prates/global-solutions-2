@@ -30,7 +30,7 @@ export const Doencas = () => {
             </div>
         </div>
         </div>
-       <img className="grafico-doencas" src="/grafico-doencas.png" alt="blob"/>
+       
        </div>
         </div>
     )

@@ -1,12 +1,12 @@
 .doencas-container{
-    background-image: url('/public/bg4.png');
+    background-image: url('/public/bg7.png');
     height: 69.5vh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding: 10vh 10rem;
+    padding: 10vh 40rem 10vh 5rem ;
     
 }
 
@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 .doencas-container h1   {
-    color: #8B3141;
+    color: #DE5D8B;
 }
 .doencas-container p   {
     color: black;
@@ -29,7 +29,7 @@
     border-radius: 20px;
 }
 .principais-doencas{
-    color: white;
+    color: #DE5D8B;
 }
 
 .principais-doencas ul {
