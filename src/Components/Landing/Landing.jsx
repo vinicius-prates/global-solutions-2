@@ -61,7 +61,25 @@ export const Landing = () => {
         <h1>
           <b>NOSSA SOLUÇÃO</b>
         </h1>
-        <iframe width="710" height="398" src="https://www.youtube.com/embed/uIMpSmRi44A?si=MZg8b6akHwgQEm1y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+          width="710"
+          height="398"
+          src="https://www.youtube.com/embed/uIMpSmRi44A?si=MZg8b6akHwgQEm1y"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div className="about-group">
+        <h1><b>SOBRE O GRUPO</b></h1>
+        <Card
+          title="INTEGRANTES - FIAP 2023"
+          paragraph="Allan Marcelino   -   RM99860
+          Marciliano   -   RM98693
+          Vinícius Prates   -   RM550285
+          Yohana Bispo Menezes   -   RM551430"
+        />
       </div>
     </div>
   );

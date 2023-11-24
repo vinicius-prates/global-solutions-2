@@ -101,3 +101,10 @@
     color: white;
     
   }
+
+  .about-group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
