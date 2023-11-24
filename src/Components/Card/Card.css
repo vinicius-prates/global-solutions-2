@@ -1,0 +1,28 @@
+.card{
+    text-align:center;
+    max-width: 25rem;
+    padding: 5px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #FAF8F8;
+    border-radius: 2rem;
+    box-shadow: initial;
+    filter: grayscale(0%) drop-shadow(0 1px 1px rgba(0, 0, 0, 0.3));    
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+
+}
+.card:hover{
+    filter: grayscale(0%) drop-shadow(0 5px 5px rgba(0, 0, 0, 0.3));    
+}
+
+.card h5{
+    color: #DE5D8B;
+    
+}
+
+.card p{
+    color: black;
+}
