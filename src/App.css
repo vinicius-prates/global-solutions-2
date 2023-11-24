@@ -2,3 +2,8 @@
 @import url('./Pages/ReductMI/ReductMI.css');
 @import url('./Pages/Prevencoes/Prevencoes.css');
 @import url('./Pages/MelhoriasGerais/MelhoriasGerais.css');
+@import url('./Components/Landing/Landing.css');
+
+.main-container {
+    margin: 0 8rem;
+}

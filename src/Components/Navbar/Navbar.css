@@ -23,4 +23,12 @@
     font-size: 18px;
     color: #D35169;
     text-decoration: none;
+    transition-duration: 600ms;
+    transition-timing-function: ease;
+    
+
+}
+.page-links a:hover {
+    color: #8B3141;
+    border-bottom: #8B3141;
 }
