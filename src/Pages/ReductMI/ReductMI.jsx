@@ -1,7 +1,7 @@
+import { Navbar } from "../../Components/Navbar/Navbar"
+
 export const ReductMI = () => {
     return(
-        <div>
-            teste
-        </div>
+        <Navbar/>
     )
 }

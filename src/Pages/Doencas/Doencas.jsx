@@ -1,5 +1,7 @@
+import { Navbar } from "../../Components/Navbar/Navbar"
+
 export const Doencas = () => {
     return(
-        <div>Doencas</div>
+       <Navbar/>
     )
 }

@@ -1,0 +1,26 @@
+.title a{
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10rem;
+}
+
+.page-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.page-links a {
+    font-weight: 700;
+    font-size: 18px;
+    color: #D35169;
+    text-decoration: none;
+}
